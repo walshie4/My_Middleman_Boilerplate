@@ -19,7 +19,7 @@ On top of the following which [Middleman](//github.com/middleman/middleman) incl
 
 * [Middleman LiveReload](//github.com/middleman/middleman-livereload)
 * [Windows Directory Monitor](//github.com/Maher4Ever/wdm) (only loaded on Windows -_-)
-* [Time Zone Data](/tzinfo/tzinfo-data) (only loaded on Windows -_-)
+* [Time Zone Data](//github.com/tzinfo/tzinfo-data) (only loaded on Windows -_-)
 
 The `config.rb` is setup for use with [HAML](//github.com/haml/haml) and [SCSS](//github.com/sass/sass).
 

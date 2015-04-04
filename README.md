@@ -1,4 +1,4 @@
-#My [Middleman](//github.com/middleman/middleman) Boilerplate
+#My Middleman Boilerplate
 ---
 
 A simple [Middleman](//github.com/middleman/middleman) boilerplate I often use for

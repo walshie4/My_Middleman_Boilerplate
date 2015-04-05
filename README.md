@@ -33,8 +33,13 @@ Switch out `YOUR_PROJECT_NAME` with, well, your project's name.
 
 2. `cd` into repo - `cd YOUR_PROJECT_NAME/`
 
-3. Start Middleman - `make run` or `make test`
+3. Delete boilerplate git repo - `rm -rf ./.git/`
 
-4. Open a web browser to `//localhost:4567/` and start editing (page will live update thanks to the
+4. Initialize new git repo - `git init`
+
+5. Make initial commit - `git add --all; git commit -m "init"`
+
+6. Start Middleman - `make run` or `make test`
+
+7. Open a web browser to `//localhost:4567/` and start editing (page will live update thanks to the
 live-reload plugin).
-

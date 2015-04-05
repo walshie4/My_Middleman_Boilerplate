@@ -22,6 +22,10 @@ set :images_dir, 'images'
 
 set :build_dir, 'build'
 
+activate :deploy do |deploy|#this will deploy to the 'gh-pages' branch of your repo
+      deploy.method = :git
+end
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
@@ -35,3 +39,4 @@ configure :build do
   # Use directory indexes (no file extension in URL)
   activate :directory_indexes
 end
+

@@ -8,7 +8,7 @@ clean:
 	rm -rf build/
 build: clean
 	bundle exec middleman build
-deploy: build
+deploy: update build
 	bundle exec middleman deploy
 run:
 	bundle exec middleman

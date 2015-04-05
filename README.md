@@ -27,7 +27,7 @@ The `config.rb` is setup for use with [HAML](//github.com/haml/haml) and [SCSS](
 
 ##How to use
 
-Switch out `YOUR_PROJECT_NAME` with well your project's name.
+Switch out `YOUR_PROJECT_NAME` with, well, your project's name.
 
 1. Clone repo - `git clone git@github.com:walshie4/My_Middleman_Boilerplate.git YOUR_PROJECT_NAME`
 

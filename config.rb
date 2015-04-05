@@ -23,7 +23,7 @@ set :images_dir, 'images'
 set :build_dir, 'build'
 
 activate :deploy do |deploy|#this will deploy to the 'gh-pages' branch of your repo
-      deploy.method = :git
+    deploy.method = :git
 end
 
 # Build-specific configuration

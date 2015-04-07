@@ -13,4 +13,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 gem 'middleman-deploy', '~> 1.0.0'
 # For minification of HTML
 gem 'middleman-minify-html', '~> 3.4.0'
+# For verification of output HTML
+gem 'html-proofer'
 

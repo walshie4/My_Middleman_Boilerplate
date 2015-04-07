@@ -1,7 +1,7 @@
 .PHONY: pull, push, update, deploy, build, clean, run, test
 pull:
 	git pull origin master
-push:
+push: verify
 	git push origin master
 update: pull push
 clean:
